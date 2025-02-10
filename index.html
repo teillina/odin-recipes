@@ -5,22 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            box-sizing: border-box;
+        }
         body{
             background-color: #ebd1d1;
+        }
+        header{
+            place-items: center;
+        }
+        .links{
+            place-items: center;
         }
     </style>
 </head>
 <body>
-    <h1>Cooking recipes :D</h1>
-    <img src="images/maus.png" alt="mouse thumbs up" height="100">
-    <p>remi from ratatouille approves</p>
-    
+    <header>
+        <h1>Cooking recipes :D</h1>
+        <img src="images/maus.png" alt="mouse thumbs up" height="100" class="ratatouille">
+        <p>remi from ratatouille approves</p>
+    </header>
     <hr>
-    <ul>
-        <li><a href="recipes/PepperoniPizza.html"> Pepperoni Pizza Recipe</a></li>
-        <li><a href="recipes/Guacamole.html"> Guacamole Recipe</a></li>
-        <li><a href="recipes/ChorizoFundido.html">Chorizo Fundido Recipe </a></li>
-    </ul>
+
+    <div class="links">
+        <ul>
+            <li><a href="recipes/PepperoniPizza.html"> Pepperoni Pizza Recipe</a></li>
+            <li><a href="recipes/Guacamole.html"> Guacamole Recipe</a></li>
+            <li><a href="recipes/ChorizoFundido.html">Chorizo Fundido Recipe </a></li>
+        </ul>
+    </div>
+
     
     
 </body>
